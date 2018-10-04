@@ -7,7 +7,7 @@ var scrambledAnimals = [
 
 //moved to global scope from inside singleAnimal function;
 let singleLetters = [];
-let oneAnimal = '';
+let allAnimal = '';
 
 
 
@@ -23,11 +23,12 @@ var unscramble = function() {
 
 
 var singleAnimal = function() {
+  let stringy = '';
   for (let i = 0; i < singleLetters.length; i ++){
-    console.log(oneAnimal.concat(singleLetters[i]));
-
-
+    stringy.concat(stringy += singleLetters[i]);
   }
+  console.log(stringy);
+  console.log(allAnimal);
 };
 
 
