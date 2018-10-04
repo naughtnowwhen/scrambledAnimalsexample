@@ -1,0 +1,1 @@
+ahha! I wasn't getting anything out of singleAnimal(); then I realized I was calling it before unscramble(); so it wasn't getting any data, put the call to where it is now and it started working. ACP. 
