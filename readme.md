@@ -6,3 +6,8 @@ stringy.concat(singleLetter[i]);
 
 the real solution is on line 28; 
 ACP
+
+Ok, reached a stopping point where I want to try different string erase methods id function splitter() so that allAnimal can erase oneAnimal, thus allowing for the next animal on deck to start with a clean index of 0, so that it can grab and push the next animal when its index reaches 3. 
+
+But I think I may want to checkout branches so that I can maybe try different methods and pull whatever branch works into master. And I think I want to get some help on which different string erase methods I should use. 
+ACP. 
