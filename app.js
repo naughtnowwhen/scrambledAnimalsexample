@@ -19,6 +19,13 @@ let allAnimal = '';
 var testerString = '';
 var testerArr = [];
 
+//wow! So working on this for like 15 minutes i got the answer (i think being inspired by what Michael was doing) but what'd i do different, i put this logic in the unscramble function, whereas before I was trying a separate function to handle it and this seemed to do it much better. cool. Moving on. 
+
+// if(testerString.length === 3){
+//   testerArr.push(testerString);
+//   testerString = '';
+// }
+
 var unscramble = function() {
   let animalsGetPushed = [];
   for (let slow = 0; slow < scrambledAnimals[0].length; slow ++){
@@ -50,27 +57,6 @@ let animalFarm = [];
 
 //split string method.
 //splice
-
-
-
-
-
-//michael's tinkering
-// function splitter() {
-//   let animalHouse = [];
-//   for (var i = 0; i < arrayStrings.length; i ++){
-//     console.log(arrayStrings.length);
-//     let animal = '';
-
-//     for (var j = 0; j< arrayStrings[i] ; j++){
-//       console.log("letter", arrayStrings[i][j]);
-//       animal = animal+arrayStrings[i][j];
-//     }
-//     animalHouse.push(animal);
-
-//   }
-//   console.log('ANIMAL HOUSE', animalHouse);
-// }
 
 
 unscramble();
